@@ -1,0 +1,13 @@
+@use "./scss/" as *;
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+font-family: 'Press Start 2P';
+font-size:98%;
+}
+
+.App{
+  min-height: 100vh;
+}

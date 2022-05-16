@@ -1,0 +1,13 @@
+@use "../../scss/" as *;
+
+.Container{
+    min-height: 100vh;
+        @include flex(center, center);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    h2{
+        color: red;
+        margin-bottom:1rem;
+    }
+}

@@ -1,0 +1,14 @@
+@use "../../scss/" as *;
+
+
+.Container{
+    min-width:20rem;
+    border-radius:5px;
+    box-shadow: $shadows;
+}
+
+.Content{
+    color: white;
+    margin-bottom:0.5rem;
+    @include flex(center, space-between);
+}
